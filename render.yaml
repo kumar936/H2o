@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: h2o-final
+    name: h2o-ml
     env: python
     plan: free
     runtime: python-3.9.18
