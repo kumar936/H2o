@@ -3,6 +3,5 @@ services:
     name: h2o-ml
     env: python
     plan: free
-    runtime: python-3.10
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn api_server:app
